@@ -11,6 +11,19 @@ import java.sql.SQLException;
 
 @SpringBootApplication
 public class MultiProcedureApplication {
+    /*
+    REQUIRED DEPENDENCY
+    https://mvnrepository.com/artifact/com.oracle.database.spring/oracle-spring-boot-starter-ucp/23.4.0
+
+    <!-- https://mvnrepository.com/artifact/com.oracle.database.spring/oracle-spring-boot-starter-ucp -->
+    <dependency>
+        <groupId>com.oracle.database.spring</groupId>
+        <artifactId>oracle-spring-boot-starter-ucp</artifactId>
+        <version>23.4.0</version>
+    </dependency>
+
+     */
+
     // DATABASE 1
     @Bean
     DataSource ds() throws SQLException {
