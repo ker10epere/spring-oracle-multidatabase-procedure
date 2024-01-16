@@ -1,0 +1,9 @@
+#spring:
+#  datasource:
+#    username: OISS
+#    password: OISS
+#    url: jdbc:oracle:thin:@//localhost:1521/ORCL
+#    driver-class-name: oracle.jdbc.OracleDriver
+logging:
+  level:
+    org.springframework.jdbc: debug

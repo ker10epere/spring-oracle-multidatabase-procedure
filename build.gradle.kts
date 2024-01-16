@@ -17,6 +17,9 @@ repositories {
 
 dependencies {
     implementation("org.springframework.boot:spring-boot-starter-data-jdbc")
+    implementation("com.oracle.database.spring:oracle-spring-boot-starter-ucp:23.4.0")
+    compileOnly("org.projectlombok:lombok")
+    annotationProcessor("org.projectlombok:lombok")
     runtimeOnly("com.oracle.database.jdbc:ojdbc11")
     testImplementation("org.springframework.boot:spring-boot-starter-test")
 }
